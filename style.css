@@ -1,0 +1,109 @@
+*{
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+
+}
+
+i{
+    margin-left: 20px;
+}
+
+h1 {
+    color : white;
+    background: #000;
+    width : 300px; 
+    text-align: center;
+    border-radius : 200px; 
+    margin : 20px auto ; 
+    display: block;;
+}
+
+h1:hover{
+    background: white;
+    color : black ; 
+    border: 1px solid orange ; 
+    transition : 0.3s ease-in;
+
+}
+
+/* class calculatrice  */
+
+.calculatrice {
+    border : 1px solid orange; 
+    background: transparent ;
+   padding: 30px;
+   border-radius : 20px; 
+   box-shadow:  -1px -1px 12px white;
+}
+
+#numbers {
+    width: 300px; 
+    margin: 20px;
+    background: transparent;
+    border : none; 
+    font-size : 2.5rem; 
+    text-align: right;
+    color : greenyellow; 
+    padding: 20px;
+    box-shadow: 1px -1px 14px 2px white;
+
+}
+
+#numbers:focus{
+    border : orange;
+ 
+
+}
+.btn2{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border : greenyellow; 
+    border-radius : 200px; 
+    box-shadow : 2px 2px 2px greenyellow; 
+    margin: 20px;
+    font-size: 0.9rem ; 
+    font-weight: 600;
+}
+.btn1{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border : greenyellow; 
+    border-radius : 200px; 
+    box-shadow : 2px 2px 2px greenyellow; 
+    margin: 20px;
+    font-size : 0.9rem;
+    color : red ; 
+    font-weight: 600; 
+    ;
+}
+/* btn3 = btn equal */
+.btn3{ 
+    height: 50px;
+    width: 50px;
+    border-radius : 200px ; 
+    box-shadow : 2px 2px 2px orange; 
+    color : black; 
+    background: greenyellow;
+    margin: 20px;
+    font-size : 0.9rem; 
+
+
+}
+
+
+
+
+
